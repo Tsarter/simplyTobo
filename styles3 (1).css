@@ -1,0 +1,97 @@
+div, th, tr, table {
+padding: 0;
+}
+table {
+border-collapse: collapse;
+}
+h1 {
+font-size: 50;
+padding:1.5am;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ebebeb;
+font-family: 'Bebas Neue';
+font-size: 30px;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #3464eb;
+}
+div {
+background-color: #3464eb;
+}
+body {
+
+background-color: #ebebeb;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+/* google play and app store logo*/
+.store-icons {
+width: 50%;
+height: auto;
+}
+/*Table with pros*/
+.table-key-features {
+	table-layout: fixed;
+	width: 100%;
+	font-family:'Public Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+.table-key-img{
+	height: auto;
+	width: 100px;
+}
+.search
+#komments{
+	display: none;
+}
+
+#rating {
+	display: none;
+}
+#comments{
+	display: none;
+}
+#ride{
+	display:none;
+	text-align:center;
+}
+button{
+	background-color: #ffd300;
+        border: none;
+		border-radius: 12px;
+        color: white;
+        padding: 20px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin: 0 auto;
+        cursor: pointer;
+  
+	
+}
+p{
+	font-size:75px;
+}
+span{
+	font-family: 'Bebas Neue';
+	text-align:center;
+}
