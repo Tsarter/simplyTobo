@@ -146,10 +146,15 @@
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b7406a3028d9f84691d7f7e9d_0573fe9716" tabindex="-1" value=""></div>
 	</div>
-    <div class="clear", style= "padding-left:45%"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear", style= "padding-left:45%"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="Subscribe();"></div>
     
 </form>
 </div>
+<script>
+function Subscribe(){
+gtag("event","Subscribed!");
+}
+</script>
 
 <!--End mc_embed_signup-->
 
