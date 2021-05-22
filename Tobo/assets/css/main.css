@@ -4011,6 +4011,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100vh;
 	}
 
 	body.is-mobile.landing #footer {
